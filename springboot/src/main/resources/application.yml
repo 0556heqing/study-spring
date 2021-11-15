@@ -1,0 +1,11 @@
+server:
+  name: learn-springboot
+  port: 8080
+
+spring:
+  application:
+    name: ${server.name}
+  profiles:
+    active: stg
+    include: prefix,prefix1
+

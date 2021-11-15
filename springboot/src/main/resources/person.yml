@@ -1,0 +1,13 @@
+testLong : 112
+testString : 贺庆
+testDate : 2021-07-14
+testBoolean : true
+testJson : {"num":1,"test":"demo"}
+testArray : 1,2,3
+testList : 1,2,3
+testMap : {"num":1,"test":"demo"}
+address.provice : 安徽
+address.city : 安庆
+address.area : 宿松
+type : 0
+testEnum: ADULT

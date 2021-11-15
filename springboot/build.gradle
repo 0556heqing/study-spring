@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.3.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+dependencies {
+
+    // 构造器工具 lombok
+    compile 'org.projectlombok:lombok'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: lombok_version
+
+    // 阿里Json工具 fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: fastjson_version
+
+    compile 'org.springframework.boot:spring-boot-starter-validation'
+
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+    useJUnitPlatform()
+}

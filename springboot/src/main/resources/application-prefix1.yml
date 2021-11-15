@@ -1,0 +1,13 @@
+prefix:
+  testList:
+  - address:
+    provice: anhui
+    city: hefei
+    area: changfei
+  - address:
+    provice: anhui
+    city: liuan
+    area: shucheng
+  testMap:
+    num1: 2
+    test1: 测试2

@@ -1,0 +1,28 @@
+prefix:
+  testLong: 113
+  testString: heqing
+#  testDate: 2021-07-14
+  testBoolean: true
+  testJson: "{\"num\":1,\"test\":\"demo\"}"
+  testArray:
+    hq
+    sy
+  testList:
+  - address:
+    provice: anhui
+    city: anqing
+    area: susong
+  - address:
+    provice: shanghai
+    city: shanghai
+    area: songjiang
+  testMap:
+    num: 1
+    test: demo
+  address:
+    provice: anhui
+    city: anqing
+    area: susong
+  testEnum:
+    ADULT
+
